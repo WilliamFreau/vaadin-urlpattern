@@ -1,0 +1,16 @@
+package com.william;
+
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.router.Route;
+import com.william.lib.LibAppLayout;
+
+/**
+ * Simple view with the app layout from the lib
+ */
+@Route(value = "", layout = LibAppLayout.class)
+public class View extends VerticalLayout {
+    
+    public View() {
+        this.add("With URL mapping, resource not working");
+    }
+}

@@ -1,0 +1,45 @@
+# Intellij Part
+.idea/
+.settings
+.project
+.classpath
+*.iml
+.DS_Store
+
+# Compiled class
+source/**/target
+
+
+# The following files are generated/updated by vaadin-maven-plugin
+source/**/node_modules/
+source/**/webpack.generated.js
+source/**/webpack.config.js
+source/**/.npmrc
+source/**/pnpm-lock.yaml
+source/**/pnpmfile.js
+source/**/tsconfig.json
+source/**/types.d.ts
+
+
+# Ignore the ignore folder
+IGNORE/**
+/source/**/frontend/index.html
+/source/**/frontend/generated/
+
+**/application-dev.properties
+
+# Vnote files
+/documentation/**/vx.json
+/documentation/vx_notebook/
+/documentation/**/*.bkp
+#Export Draw.io
+/documentation/sources_draw_io/export
+
+# Pom version change
+**/pom.xml.versionsBackup
+/source/**/logs/
+
+
+#Vaadin 23.2
+source/**/vite.generated.ts
+source/**/api.d.ts
